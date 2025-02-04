@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Banana Pancakes Recipe | Simply Recipes</title>
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: 'Verdana', sans-serif;
+            max-width: 900px;
+            margin: auto;
+            padding: 25px;
+            background-color: #fffbf2; /* Light warm background */
+            color: #4a2c09; /* Dark brown text */
+        }
+
+        /* Header and Footer Styling */
+        header, footer {
+            text-align: center;
+            background-color: #f5dcb3; /* Warm beige */
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        /* Image Styling */
+        img {
+            width: 100%;
+            border-radius: 12px; /* Rounded corners */
+        }
+
+        /* Section Boxes for Ingredients & Instructions */
+        section {
+            background: white;
+            padding: 18px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 8px rgba(0,0,0,0.15);
+        }
+
+        /* Headings Styling */
+        h1 {
+            color: #b37400; /* Warm brown */
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #8b5e00;
+        }
+
+        /* List Formatting */
+        ul, ol {
+            margin-left: 25px;
+        }
+
+        /* Navigation Styling */
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #8b5e00;
+            font-weight: bold;
+        }
+
+        /* Flexbox for Layout */
+        .recipe-container {
+            display: flex;
+            gap: 30px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Main Recipe Content */
+        .content {
+            flex: 3;
+        }
+
+        /* Sidebar (Related Recipes) */
+        .sidebar {
+            flex: 1;
+            background: #fef2e0; /* Light beige */
+            padding: 15px;
+            border-radius: 10px;
+            min-width: 260px;
+        }
+
+        /* Sidebar Image Formatting */
+        .sidebar img {
+            width: 100px;
+            height: 100px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Simply Recipes</h1>
+        <nav>
+            <a href="#">Home</a> | 
+            <a href="#">Recipe of the Day</a> | 
+            <a href="#">Recipes</a> | 
+            <a href="#">In the Kitchen</a> | 
+            <a href="#">Table Talk</a> | 
+            <a href="#">Holidays & Seasons</a> | 
+            <a href="#">About Us</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <div class="recipe-container">
+        
+        <!-- Recipe Details Section -->
+        <article class="content">
+            <h1>Banana Pancakes</h1>
+
+            <!-- Image of the Dish -->
+            <figure>
+                <img src="https://www.twopeasandtheirpod.com/wp-content/uploads/2022/04/Banana-Pancakes-7.jpg" alt="Banana Pancakes">
+                <figcaption>Light, fluffy banana pancakes, perfect for breakfast!</figcaption>
+            </figure>
+
+            <!-- Short Description -->
+            <p>These delicious banana pancakes are easy to make and packed with flavor!</p>
+
+            <!-- Ingredients List -->
+            <section>
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>1 ripe banana</li>
+                    <li>1 cup all-purpose flour</li>
+                    <li>1 teaspoon baking powder</li>
+                    <li>1 tablespoon sugar</li>
+                    <li>1 egg</li>
+                    <li>1/2 cup milk</li>
+                    <li>1/2 teaspoon vanilla extract</li>
+                    <li>Pinch of salt</li>
+                    <li>1 tablespoon melted butter</li>
+                </ul>
+            </section>
+
+            <!-- Instructions List -->
+            <section>
+                <h2>Instructions</h2>
+                <ol>
+                    <li>Mash the banana in a bowl until smooth.</li>
+                    <li>Whisk in egg, milk, vanilla, and melted butter.</li>
+                    <li>In another bowl, mix flour, baking powder, sugar, and salt.</li>
+                    <li>Combine wet and dry ingredients and stir until just mixed.</li>
+                    <li>Heat a greased pan over medium heat and pour small amounts of batter.</li>
+                    <li>Cook until bubbles form, then flip and cook another 1-2 minutes.</li>
+                    <li>Serve warm with syrup, fresh bananas, or nuts.</li>
+                </ol>
+            </section>
+        </article>
+
+        <!-- Sidebar with Related Recipes -->
+        <aside class="sidebar">
+            <h2>Related Recipes</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li>
+                    <a href="#">Classic Waffles</a>
+                    <div><img src="https://www.cookingclassy.com/wp-content/uploads/2019/08/belgian-waffles-21.jpg" alt="Classic Waffles"></div>
+                </li>
+                <li>
+                    <a href="#">French Toast</a>
+                    <div><img src="https://www.spendwithpennies.com/wp-content/uploads/2019/06/French-Toast-SpendWithPennies-7.jpg" alt="French Toast"></div>
+                </li>
+                <li>
+                    <a href="#">Blueberry Muffins</a>
+                    <div><img src="https://www.jessicagavin.com/wp-content/uploads/2020/05/blueberry-muffins-12-1200.jpg" alt="Blueberry Muffins"></div>
+                </li>
+                <li>
+                    <a href="#">Oatmeal Pancakes</a>
+                    <div><img src="https://www.simplyrecipes.com/thmb/tZ1Kt9koAO9kaFYbxtj5c_fsbOg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Oatmeal-Pancakes-LEAD-2-3c0b272d88a145e7be3aeb98550439eb.jpg" alt="Oatmeal Pancakes"></div>
+                </li>
+                <li>
+                    <a href="#">Strawberry Smoothie</a>
+                    <div><img src="https://www.wellplated.com/wp-content/uploads/2020/06/Strawberry-Banana-Smoothie-500x500.jpg" alt="Strawberry Smoothie"></div>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p> 2025 Simply Recipes. </p>
+    </footer>
+
+</body>
+</html>
